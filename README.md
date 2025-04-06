@@ -1,4 +1,4 @@
-# Professional Card Project
+# Professional Card Website
 A modern, responsive professional card/portfolio website built with Astro. This project showcases professional information, skills, and contact details in an elegant and interactive way.
 
 ## Features
