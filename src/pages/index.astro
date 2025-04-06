@@ -1,0 +1,19 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Card from "../components/Card.astro";
+import aboutMeData from "../data/aboutMe.json";
+---
+
+<BaseLayout 
+  title="Ioannis E. Kosmadakis | ServiceNow Technical Consultant | R&D Engineer" 
+  description="Discover Ioannis E. Kosmadakis's professional portfolio, showcasing expertise in ServiceNow, R&D, and innovative solutions. Learn more today!"
+>
+  <Card
+    name="Ioannis E. Kosmadakis"
+    position="ServiceNow Technical Consultant | R&D Engineer"
+    aboutMe={aboutMeData}
+    linkedin="https://www.linkedin.com/in/iekosmadakis/"
+    github="https://github.com/iekosmadakis/"
+    profileImage="/images/profile.webp"
+  />
+</BaseLayout>
