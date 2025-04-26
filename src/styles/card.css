@@ -41,8 +41,9 @@
     color: #FFFFFF;
 }
 
-.description h1 { 
-    font-weight: 400; 
+.description h1 {
+    font-weight: 400;
+    font-size: 1.95rem;
 }
 
 .description h2 {
@@ -52,7 +53,7 @@
 
 .description h3 {
     font-weight: 500;
-    font-size: 0.87rem;
+    font-size: 0.81rem;
 }
 
 /* About Me Section */
