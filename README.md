@@ -50,4 +50,4 @@ professional-card/
 The project uses Astro's hybrid rendering capabilities, combining static site generation with dynamic components where needed. The styling is handled through Tailwind CSS, providing a utility-first approach to styling.
 
 ## License
-This project is licensed under the MIT License
+This project is licensed under the MIT License.
