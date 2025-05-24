@@ -27,7 +27,7 @@ npm run build
 ```
 
 ## Technologies Used
-- [Astro](https://astro.build/)
+- Astro
 - TypeScript
 - Tailwind CSS
 - React
