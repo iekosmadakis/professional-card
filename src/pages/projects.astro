@@ -1,0 +1,12 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Projects from "../components/Projects.astro";
+import projectsData from "../data/projects.json";
+---
+
+<BaseLayout 
+  title="Projects | Ioannis E. Kosmadakis | Portfolio" 
+  description="Explore the projects and work of Ioannis E. Kosmadakis, featuring innovative applications in web development, security, and interactive technologies."
+>
+  <Projects projects={projectsData.projects} />
+</BaseLayout> 

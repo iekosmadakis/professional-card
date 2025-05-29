@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "title": "PassShare - Secure Password Sharing",
+      "description": "A modern, enterprise-grade password sharing application built with security-first principles. PassShare enables secure, one-time password sharing through client-side encryption and ephemeral links that automatically self-destruct after access.",
+      "url": "https://passshare.iekosmadakis.com/",
+      "github": "https://github.com/iekosmadakis/passshare"
+    },
+    {
+      "title": "3D Dice Roller",
+      "description": "A modern, interactive 3D dice rolling application built with React, Three.js and CANNON.js. Experience realistic physics-based dice rolling with a beautiful user interface.",
+      "url": "https://dice-roller.iekosmadakis.com/",
+      "github": "https://github.com/iekosmadakis/dice-roller"
+    },
+    {
+      "title": "Professional Card Website",
+      "description": "A modern, responsive professional card/portfolio website built with Astro. This project showcases professional information, skills, and contact details in an elegant and interactive way.",
+      "url": "https://iekosmadakis.com/",
+      "github": "https://github.com/iekosmadakis/professional-card"
+    }
+  ]
+} 
