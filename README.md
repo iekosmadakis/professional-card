@@ -27,7 +27,7 @@ npm run build
 ```
 
 ## Technologies Used
-- [Astro](https://astro.build/)
+- Astro
 - TypeScript
 - Tailwind CSS
 - React
@@ -50,4 +50,4 @@ professional-card/
 The project uses Astro's hybrid rendering capabilities, combining static site generation with dynamic components where needed. The styling is handled through Tailwind CSS, providing a utility-first approach to styling.
 
 ## License
-MIT
+This project is licensed under the MIT License.
