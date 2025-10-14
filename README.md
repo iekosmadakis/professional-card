@@ -6,11 +6,12 @@ A modern, responsive professional card/portfolio website built with Astro. This 
 
 - 🚀 Built with Astro for optimal performance
 - 🎨 Stylish design with gradient card and dark theme
-- 📱 Fully responsive layout
+- 📱 Fully responsive layout across all devices
 - 🗂️ Projects showcase page
 - 🔧 Customizable content through JSON data files
-- 🎯 SEO optimized
+- 🎯 Comprehensive SEO optimization
 - 💎 Elegant glassmorphism design effects
+- ♿ Enhanced accessibility with ARIA labels
 
 ## Installation
 
@@ -46,7 +47,9 @@ professional-card/
 ├── public/
 │   ├── images/
 │   │   └── profile.webp
-│   └── favicon.ico
+│   ├── favicon.ico
+│   ├── robots.txt
+│   └── sitemap.xml
 ├── src/
 │   ├── components/
 │   │   ├── Card.astro
