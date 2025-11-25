@@ -1,0 +1,11 @@
+{
+  "projects": [
+    {
+      "title": "IT-Tools",
+      "description": "A comprehensive collection of handy online tools for developers with great UX. Built with Vue.js and TypeScript, IT-Tools provides 80+ utilities including converters, encoders, formatters, and generators. Self-hosted for privacy and offline access, this open-source toolkit streamlines daily development tasks with an intuitive interface.",
+      "url": "https://it-tools.iekosmadakis.com/",
+      "github": "https://github.com/CorentinTh/it-tools"
+    }
+  ]
+}
+

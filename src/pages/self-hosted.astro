@@ -1,0 +1,13 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import SelfHostedProjects from "../components/SelfHostedProjects.astro";
+import selfHostedProjectsData from "../data/selfHostedProjects.json";
+---
+
+<BaseLayout 
+  title="Self-Hosted Projects | Ioannis Kosmadakis" 
+  description="Explore self-hosted open-source projects deployed by Ioannis Kosmadakis, including developer tools and utilities running on personal infrastructure."
+>
+  <SelfHostedProjects projects={selfHostedProjectsData.projects} />
+</BaseLayout>
+

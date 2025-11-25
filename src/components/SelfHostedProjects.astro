@@ -1,5 +1,5 @@
 ---
-//src/components/Projects.astro
+//src/components/SelfHostedProjects.astro
 const { projects } = Astro.props;
 
 import '../styles/projects.css';
@@ -8,8 +8,8 @@ import '../styles/projects.css';
 <div class="container">
     <div class="projects-container">
         <div class="projects-header">
-            <h1>My Projects</h1>
-            <p>Here are some of the projects I have worked on. Feedback and suggestions are always welcome!</p>
+            <h1>Self-Hosted Projects</h1>
+            <p>Here are open-source projects I'm running on my own infrastructure. These tools were created by talented developers in the community and I've deployed them for personal use and experimentation. Check out the original repositories to explore their features!</p>
         </div>
         
         <div class="projects-grid">
@@ -32,9 +32,9 @@ import '../styles/projects.css';
         </div>
 
         <div class="back-home">
-            <a href="/self-hosted" class="back-link">
-                <i class="bi bi-server"></i>
-                Self-Hosted Projects
+            <a href="/projects" class="back-link">
+                <i class="bi bi-folder"></i>
+                My Projects
             </a>
             <a href="/" class="back-link">
                 <i class="bi bi-arrow-left"></i>
@@ -42,4 +42,5 @@ import '../styles/projects.css';
             </a>
         </div>
     </div>
-</div> 
+</div>
+
