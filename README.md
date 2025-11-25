@@ -8,6 +8,7 @@ A modern, responsive professional card/portfolio website built with Astro. This 
 - 🎨 Stylish design with gradient card and dark theme
 - 📱 Fully responsive layout across all devices
 - 🗂️ Projects showcase page
+- 🖥️ Self-hosted projects gallery
 - 🔧 Customizable content through JSON data files
 - 🎯 Comprehensive SEO optimization
 - 💎 Elegant glassmorphism design effects
@@ -53,15 +54,18 @@ professional-card/
 ├── src/
 │   ├── components/
 │   │   ├── Card.astro
-│   │   └── Projects.astro
+│   │   ├── Projects.astro
+│   │   └── SelfHostedProjects.astro
 │   ├── data/
 │   │   ├── aboutMe.json
-│   │   └── projects.json
+│   │   ├── projects.json
+│   │   └── selfHostedProjects.json
 │   ├── layouts/
 │   │   └── BaseLayout.astro
 │   ├── pages/
 │   │   ├── index.astro
-│   │   └── projects.astro
+│   │   ├── projects.astro
+│   │   └── self-hosted.astro
 │   └── styles/
 │       ├── global.css
 │       ├── card.css
@@ -75,15 +79,17 @@ professional-card/
 
 - **Home (/)** - Main professional card with personal information and social links
 - **Projects (/projects)** - Showcase of featured projects with live demos and GitHub links
+- **Self-Hosted (/self-hosted)** - Gallery of self-hosted open-source projects running on personal infrastructure
 
 ## Customization
 
 To customize the content:
 
 1. **Personal Information**: Edit `src/data/aboutMe.json`
-2. **Projects**: Update `src/data/projects.json` 
-3. **Profile Image**: Replace `public/images/profile.webp`
-4. **Styling**: Modify CSS files in `src/styles/`
+2. **Projects**: Update `src/data/projects.json`
+3. **Self-Hosted Projects**: Update `src/data/selfHostedProjects.json`
+4. **Profile Image**: Replace `public/images/profile.webp`
+5. **Styling**: Modify CSS files in `src/styles/`
 
 ## Development
 
