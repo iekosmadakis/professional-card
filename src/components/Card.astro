@@ -13,6 +13,9 @@ import '../styles/card.css';
             <div class="about-me-content">
                 <div class="section">
                     <p>{aboutMe.content}</p>
+                    {aboutMe.closingNote && (
+                        <p class="closing-note"><em>{aboutMe.closingNote}</em></p>
+                    )}
                 </div>
                 <div class="section">
                     <h2>{aboutMe.highlights.title}</h2>

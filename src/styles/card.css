@@ -83,6 +83,12 @@
     margin-left: -1em;
 }
 
+.closing-note {
+    margin-top: 1rem;
+    font-size: 0.85rem;
+    opacity: 0.9;
+}
+
 /* Icons */
 .icons {
     display: flex;
