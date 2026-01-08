@@ -3,3 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Footer */
+.site-footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #131516;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: 'Lato', sans-serif;
+    font-size: 0.8rem;
+}
+
+.site-footer p {
+    margin: 0;
+}
