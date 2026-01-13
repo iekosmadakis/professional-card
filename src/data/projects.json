@@ -7,6 +7,12 @@
       "github": "https://github.com/iekosmadakis/passshare"
     },
     {
+      "title": "SNCodePolish - ServiceNow Code & JSON Formatter",
+      "description": "A client-side web application for formatting and polishing ServiceNow JavaScript code and JSON. Features intelligent typo detection with fuzzy matching, ServiceNow-specific auto-fixes, and comprehensive code validation. All processing happens in the browser ensuring complete privacy.",
+      "url": "https://sncodepolish.iekosmadakis.com/",
+      "github": "https://github.com/iekosmadakis/sncodepolish"
+    },
+    {
       "title": "3D Dice Roller",
       "description": "A modern, interactive 3D dice rolling application built with React, Three.js and CANNON.js. Experience realistic physics-based dice rolling with a beautiful user interface.",
       "url": "https://dice-roller.iekosmadakis.com/",
