@@ -8,7 +8,7 @@
     },
     {
       "title": "GlideAware Studio - Productivity Suite for ServiceNow",
-      "description": "A privacy-first web tool for formatting, polishing, and comparing ServiceNow JavaScript and JSON. Features intelligent fuzzy-matching typo detection, ServiceNow auto-fixes, visual diff comparison, and code validation. All processing runs entirely in the browser.",
+      "description": "A privacy-first web tool for ServiceNow developers and consultants to analyze, refine, and debug scripts while managing project tasks, notes, and diagrams, all offline. It combines script analysis with Kanban-style task tracking, rich text documentation, and freeform sketching capabilities.",
       "url": "https://glideaware.iekosmadakis.com/",
       "github": "https://github.com/iekosmadakis/glideaware"
     },
