@@ -1,6 +1,5 @@
 ---
-//src/components/Projects.astro
-const { projects } = Astro.props;
+const { projects, currentPage, totalPages } = Astro.props;
 
 import '../styles/projects.css';
 ---
@@ -11,7 +10,7 @@ import '../styles/projects.css';
             <h1>My Projects</h1>
             <p>Here are some of the projects I have worked on. Feedback and suggestions are always welcome!</p>
         </div>
-        
+
         <div class="projects-grid">
             {projects.map(project => (
                 <div class="project-card">
@@ -31,6 +30,20 @@ import '../styles/projects.css';
             ))}
         </div>
 
+        {totalPages > 1 && (
+            <div class="pagination">
+                {Array.from({ length: totalPages }, (_, i) => i + 1).map(page => (
+                    <a
+                        href={page === 1 ? '/projects' : `/projects/${page}`}
+                        class:list={['pagination-link', { active: page === currentPage }]}
+                        aria-label={`Go to page ${page}`}
+                    >
+                        {page}
+                    </a>
+                ))}
+            </div>
+        )}
+
         <div class="back-home">
             <a href="/self-hosted" class="back-link">
                 <i class="bi bi-server"></i>
@@ -42,4 +55,4 @@ import '../styles/projects.css';
             </a>
         </div>
     </div>
-</div> 
+</div>

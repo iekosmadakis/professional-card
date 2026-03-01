@@ -13,16 +13,22 @@
       "github": "https://github.com/iekosmadakis/glideaware"
     },
     {
-      "title": "3D Dice Roller",
+      "title": "3D Dice Roller - Dice Throwing Simulation",
       "description": "A modern, interactive 3D dice rolling application built with React, Three.js and CANNON.js. Experience realistic physics-based dice rolling with a beautiful user interface.",
       "url": "https://dice-roller.iekosmadakis.com/",
       "github": "https://github.com/iekosmadakis/dice-roller"
     },
     {
-      "title": "Professional Card Website",
+      "title": "OClocked - Timezone Dashboard",
+      "description": "A minimal timezone dashboard for viewing and comparing time zones across the world. Browse cities by region, compare local times, and manage favorite timezones.",
+      "url": "https://oclocked.iekosmadakis.com/",
+      "github": "https://github.com/iekosmadakis/oclocked"
+    },
+    {
+      "title": "Professional Card - Personal Portfolio Website",
       "description": "A modern, responsive professional card/portfolio website built with Astro. This project showcases professional information, skills, and contact details in an elegant and interactive way.",
       "url": "https://iekosmadakis.com/",
       "github": "https://github.com/iekosmadakis/professional-card"
     }
   ]
-} 
+}

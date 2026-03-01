@@ -1,5 +1,4 @@
 ---
-//src/components/SelfHostedProjects.astro
 const { projects } = Astro.props;
 
 import '../styles/projects.css';
@@ -11,7 +10,7 @@ import '../styles/projects.css';
             <h1>Self-Hosted Projects</h1>
             <p>Here are open-source projects I'm running on my own infrastructure. These tools were created by talented developers in the community and I've deployed them for personal use and experimentation. Check out the original repositories to explore their features!</p>
         </div>
-        
+
         <div class="projects-grid">
             {projects.map(project => (
                 <div class="project-card">
@@ -43,4 +42,3 @@ import '../styles/projects.css';
         </div>
     </div>
 </div>
-

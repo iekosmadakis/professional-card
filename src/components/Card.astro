@@ -1,6 +1,5 @@
 ---
-//src/components/Card.astro
-const {name, position, aboutMe, linkedin, github, profileImage } = Astro.props;
+const { name, position, aboutMe, linkedin, github, profileImage } = Astro.props;
 
 import '../styles/card.css';
 ---
@@ -28,21 +27,15 @@ import '../styles/card.css';
             </div>
             <div class="icons">
                 <a href="/projects" class="hover-text" aria-label="View Projects">
-                    <span class="tooltip-text">
-                        Projects
-                    </span>
+                    <span class="tooltip-text">Projects</span>
                     <i class="bi bi-folder"></i>
                 </a>
                 <a href={linkedin} class="hover-text" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
-                    <span class="tooltip-text">
-                        LinkedIn
-                    </span>
+                    <span class="tooltip-text">LinkedIn</span>
                     <i class="bi bi-linkedin"></i>
                 </a>
                 <a href={github} class="hover-text" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
-                    <span class="tooltip-text">
-                        GitHub
-                    </span>
+                    <span class="tooltip-text">GitHub</span>
                     <i class="bi bi-github"></i>
                 </a>
             </div>
