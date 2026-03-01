@@ -24,7 +24,7 @@ const pageProjects = allProjects.slice(start, start + ITEMS_PER_PAGE);
 
 <BaseLayout
   title={`Projects - Page ${currentPage} | Ioannis E. Kosmadakis | Portfolio`}
-  description="Explore the projects and work of Ioannis E. Kosmadakis, featuring innovative applications in web development, security, and interactive technologies."
+  description={`Browse more projects by Ioannis E. Kosmadakis — page ${currentPage} of ${totalPages}. Discover applications spanning automation, open-source tooling, and web development.`}
 >
   <Projects projects={pageProjects} currentPage={currentPage} totalPages={totalPages} />
 </BaseLayout>

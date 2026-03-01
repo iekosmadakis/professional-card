@@ -50,12 +50,12 @@
 
 .description h2 {
     font-weight: 500;
-    font-size: medium;
+    font-size: 0.81rem;
 }
 
 .description h3 {
     font-weight: 500;
-    font-size: 0.81rem;
+    font-size: medium;
 }
 
 /* About Me */
@@ -186,12 +186,12 @@
     }
 
     .description h2 {
-        font-size: 1rem;
+        text-align: center;
+        font-size: 0.85rem;
     }
 
     .description h3 {
-        text-align: center;
-        font-size: 0.85rem;
+        font-size: 1rem;
     }
 
     .about-me-content {
@@ -234,11 +234,11 @@
     }
 
     .description h2 {
-        font-size: 0.95rem;
+        font-size: 0.8rem;
     }
 
     .description h3 {
-        font-size: 0.8rem;
+        font-size: 0.95rem;
     }
 
     .about-me-content {
