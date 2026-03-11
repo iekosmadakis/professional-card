@@ -21,10 +21,17 @@ import '../styles/projects.css';
                             <i class="bi bi-globe"></i>
                             View Project
                         </a>
-                        <a href={project.github} class="project-link" target="_blank" rel="noopener noreferrer" aria-label={`View ${project.title} source code on GitHub`}>
-                            <i class="bi bi-github"></i>
-                            GitHub
-                        </a>
+                        {project.github ? (
+                            <a href={project.github} class="project-link" target="_blank" rel="noopener noreferrer" aria-label={`View ${project.title} source code on GitHub`}>
+                                <i class="bi bi-github"></i>
+                                GitHub
+                            </a>
+                        ) : (
+                            <span class="project-link disabled" aria-label="Private repository">
+                                <i class="bi bi-github"></i>
+                                Private
+                            </span>
+                        )}
                     </div>
                 </div>
             ))}
