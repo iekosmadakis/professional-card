@@ -13,3 +13,11 @@ npm-debug.log*
 # environment variables
 .env
 .env.production
+
+# Editor directories and files
+.vscode/
+.idea/
+.claude/
+*.swp
+*.swo
+*~

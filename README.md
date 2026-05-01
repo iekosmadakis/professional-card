@@ -11,7 +11,7 @@ A modern, responsive professional card/portfolio website built with Astro. This 
 - 🖥️ Self-hosted projects gallery
 - 🔧 Customizable content through JSON data files
 - 🎯 Comprehensive SEO optimization
-- 💎 Elegant glassmorphism design effects
+- 💎 Elegant translucent card surfaces
 - ♿ Enhanced accessibility with ARIA labels
 
 ## Installation
