@@ -1,7 +1,19 @@
 {
-  "name": "personal-card-astro",
-  "type": "module",
+  "name": "professional-card",
   "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "A modern, responsive professional card/portfolio website built with Astro.",
+  "author": "Ioannis E. Kosmadakis",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://iekosmadakis.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iekosmadakis/professional-card.git"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  },
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",

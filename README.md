@@ -38,7 +38,7 @@ npm run build
 - **Astro** - Static site generator
 - **TypeScript** - Type-safe JavaScript
 - **CSS3** - Custom styling with modern features
-- **Bootstrap Icons** - Icon library
+- **Bootstrap Icons** - Inlined as SVG paths in `Icon.astro` (no runtime dependency)
 - **Google Fonts (Lato)** - Typography
 
 ## Project Structure
@@ -54,6 +54,7 @@ professional-card/
 ├── src/
 │   ├── components/
 │   │   ├── Card.astro
+│   │   ├── Icon.astro
 │   │   ├── Projects.astro
 │   │   └── SelfHostedProjects.astro
 │   ├── data/
@@ -63,6 +64,9 @@ professional-card/
 │   ├── layouts/
 │   │   └── BaseLayout.astro
 │   ├── pages/
+│   │   ├── projects/
+│   │   │   └── [page].astro
+│   │   ├── 404.astro
 │   │   ├── index.astro
 │   │   ├── projects.astro
 │   │   └── self-hosted.astro
@@ -78,8 +82,9 @@ professional-card/
 ## Pages
 
 - **Home (/)** - Main professional card with personal information and social links
-- **Projects (/projects)** - Showcase of featured projects with live demos and GitHub links
+- **Projects (/projects)** - Showcase of featured projects with live demos and GitHub links, paginated 4 per page (`/projects/2`, ...)
 - **Self-Hosted (/self-hosted)** - Gallery of self-hosted open-source projects running on personal infrastructure
+- **404** - Styled not-found page, excluded from search indexing
 
 ## Customization
 
