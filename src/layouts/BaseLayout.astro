@@ -6,6 +6,7 @@ const {
   noindex = false,
 } = Astro.props;
 import '../styles/global.css';
+import latoWoff2 from '../fonts/lato-latin-400.woff2?url';
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const ogImage = new URL('/images/profile.webp', Astro.site);
@@ -47,10 +48,8 @@ const currentYear = new Date().getFullYear();
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
 
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Fonts (self-hosted; crossorigin is required even same-origin or the font is fetched twice) -->
+    <link rel="preload" href={latoWoff2} as="font" type="font/woff2" crossorigin>
 
     <title>{title}</title>
     

@@ -39,7 +39,10 @@ npm run build
 - **TypeScript** - Type-safe JavaScript
 - **CSS3** - Custom styling with modern features
 - **Bootstrap Icons** - Inlined as SVG paths in `Icon.astro` (no runtime dependency)
-- **Google Fonts (Lato)** - Typography
+- **Lato** - Self-hosted latin subset (SIL Open Font License 1.1), preloaded and served from the same origin
+
+The site makes **no third-party requests at load time** - all CSS is inlined into the HTML and the only
+subresources are the self-hosted font and the profile image.
 
 ## Project Structure
 
@@ -61,6 +64,8 @@ professional-card/
 │   │   ├── aboutMe.json
 │   │   ├── projects.json
 │   │   └── selfHostedProjects.json
+│   ├── fonts/
+│   │   └── lato-latin-400.woff2
 │   ├── layouts/
 │   │   └── BaseLayout.astro
 │   ├── pages/
@@ -95,6 +100,9 @@ To customize the content:
 3. **Self-Hosted Projects**: Update `src/data/selfHostedProjects.json`
 4. **Profile Image**: Replace `public/images/profile.webp`
 5. **Styling**: Modify CSS files in `src/styles/`
+6. **Font**: Replace `src/fonts/lato-latin-400.woff2` and update the `@font-face` block at the top of
+   `src/styles/global.css`. Note that Lato ships no 500 weight - the site uses 400 throughout; add a
+   second `@font-face` (weight 700) if you want bolder headings.
 
 ## Development
 
