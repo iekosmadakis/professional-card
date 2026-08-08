@@ -2,7 +2,7 @@
   "projects": [
     {
       "title": "GlideAware Studio™ - Productivity Suite for ServiceNow",
-      "description": "A privacy-first web tool for ServiceNow developers and consultants to analyze, refine, and debug scripts while managing project tasks, notes, and diagrams, all offline. It combines script analysis with Kanban-style task tracking, rich text documentation, and freeform sketching capabilities.",
+      "description": "A privacy-first web tool for ServiceNow developers and consultants to analyze, refine, and debug scripts, all offline. It pairs script analysis with Kanban-style task tracking, rich text documentation, and freeform sketching.",
       "url": "https://glideaware.iekosmadakis.com/",
       "github": null
     },
@@ -13,16 +13,22 @@
       "github": "https://github.com/iekosmadakis/passshare"
     },
     {
-      "title": "3D Dice Roller - Dice Throwing Simulation",
-      "description": "A modern, interactive 3D dice rolling application built with React, Three.js and CANNON.js. Experience realistic physics-based dice rolling with a beautiful user interface.",
-      "url": "https://dice-roller.iekosmadakis.com/",
-      "github": "https://github.com/iekosmadakis/dice-roller"
+      "title": "ExploitSignal™ - Vulnerability Intelligence Dashboard",
+      "description": "A dashboard that merges 22 public CVE, exploit, and threat feeds into a single risk-ranked record per flaw. Every score is transparent and the corpus is reachable through triage workflows, a scoped REST API, and a change feed for downstream tooling.",
+      "url": "https://exploitsignal.iekosmadakis.com/",
+      "github": null
     },
     {
       "title": "OClocked - Timezone Dashboard",
       "description": "A minimal timezone dashboard for viewing and comparing time zones across the world. Browse cities by region, compare local times, and manage favorite timezones.",
       "url": "https://oclocked.iekosmadakis.com/",
       "github": "https://github.com/iekosmadakis/oclocked"
+    },
+    {
+      "title": "3D Dice Roller - Dice Throwing Simulation",
+      "description": "A modern, interactive 3D dice rolling application built with React, Three.js and CANNON.js. Experience realistic physics-based dice rolling with a beautiful user interface.",
+      "url": "https://dice-roller.iekosmadakis.com/",
+      "github": "https://github.com/iekosmadakis/dice-roller"
     },
     {
       "title": "Professional Card - Personal Portfolio Website",
