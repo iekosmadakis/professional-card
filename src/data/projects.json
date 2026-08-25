@@ -15,7 +15,7 @@
     {
       "title": "ExploitSignal™ - Vulnerability Intelligence Dashboard",
       "description": "A dashboard that merges 22 public CVE, exploit, and threat feeds into a single risk-ranked record per flaw. Every score is transparent and the corpus is reachable through triage workflows, a scoped REST API, and a change feed for downstream tooling.",
-      "url": "https://exploitsignal.iekosmadakis.com/",
+      "url": "https://exploitsignal.org/",
       "github": null
     },
     {
