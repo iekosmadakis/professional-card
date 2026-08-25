@@ -13,8 +13,8 @@
       "github": "https://github.com/iekosmadakis/passshare"
     },
     {
-      "title": "ExploitSignal™ - Vulnerability Intelligence Dashboard",
-      "description": "A dashboard that merges 22 public CVE, exploit, and threat feeds into a single risk-ranked record per flaw. Every score is transparent and the corpus is reachable through triage workflows, a scoped REST API, and a change feed for downstream tooling.",
+      "title": "ExploitSignal™ - Vulnerability Intelligence Platform",
+      "description": "An aggregator of 22 public CVE, exploit, and threat feeds that scores every vulnerability into a single record, so a team can see what to fix first and exactly why. Ships with triage workflows, a scoped REST API, and an ordered change feed for downstream tooling.",
       "url": "https://exploitsignal.org/",
       "github": null
     },
